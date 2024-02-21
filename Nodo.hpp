@@ -13,5 +13,6 @@ class Nodo{
      Nodo(int );
      int key;
      Nodo *next;
+     Nodo *back;
 };
 #endif

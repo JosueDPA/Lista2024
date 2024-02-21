@@ -7,6 +7,14 @@ int main() {
 	L1.pushFront(50);
 	L1.pushBack(5);
 	L1.imprimir();
-	
+	cout<<endl;
+	L1.popBack();
+	L1.imprimir();
+	cout<<endl;
+	L1.popBack();
+	L1.imprimir();
+	cout<<endl;
+	L1.popBack();
+	L1.imprimir();
 	return 0;
 }
