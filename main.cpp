@@ -11,6 +11,8 @@ int main() {
 	L1.popFront();
 	L1.popBack();
 	L1.imprimir();
-	
+	cout<<endl;
+	L1.pushFront(80);
+	L1.imprimir();
 	return 0;
 }
